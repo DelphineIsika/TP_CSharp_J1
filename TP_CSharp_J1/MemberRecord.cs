@@ -10,8 +10,8 @@ namespace TP_CSharp_J1
     {
         // Attributs
         public int memberId {  get; set; }
-        public string Name { get; set; }
-        public string Type { get; set; }
+        public string name { get; set; }
+        public string type { get; set; }
         public DateOnly dateOfMembership { get; set; }
         public string noBookIssued { get; set; }
         public string maxBookLimit { get; set; }
@@ -23,8 +23,8 @@ namespace TP_CSharp_J1
         public MemberRecord(int memberId, string name, string type, DateOnly dateOfMembership, string noBookIssued, string maxBookLimit, string address, string phoneNo)
         {
             this.memberId = memberId;
-            Name = name;
-            Type = type;
+            name = name;
+            type = type;
             this.dateOfMembership = dateOfMembership;
             this.noBookIssued = noBookIssued;
             this.maxBookLimit = maxBookLimit;

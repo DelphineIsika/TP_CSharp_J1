@@ -16,14 +16,14 @@ namespace TP_CSharp_J1
         public string author { get; set; }
         public string name { get; set; }
         public double price { get; set; }
-        public int rackNo { get; set; }
+        public string rackNo { get; set; }
         public string status { get; set; } // Exemple : "Disponible", "Emprunté", "Réservé"
         public string edition { get; set; }
         public DateTime dateOfPurcharse { get; set; }
 
 
         // Constructeur
-        public Book(int bookId, string author, string name, double price, int rackNo, string status, string edition, DateTime dateOfPurcharse)
+        public Book(int bookId, string author, string name, double price, string rackNo, string status, string edition, DateTime dateOfPurcharse)
         {
             this.bookId = bookId;
             this.author = author;
